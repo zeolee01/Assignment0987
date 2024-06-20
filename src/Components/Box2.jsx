@@ -27,8 +27,8 @@ import hair from "../assets/pics/2nd/Hairdresser.png"
 const Box2 = () => {
   return (
     <div>
-      <div className="max-w-4xl mx-auto mt-6 px-4">
-        <h1 className="text-3xl font-semibold py-16">
+      <div className="max-w-4xl mx-auto mt-6 px-4 mb-6">
+        <h1 className="text-3xl font-semibold py-12">
           Who are we building for?
         </h1>
 
@@ -138,7 +138,7 @@ const Box2 = () => {
                     Blogger & Influencer
                   </p>
                 </div>
-                <div className="transform skew-y-3">
+                <div className="transform -skew-y-3">
                   <p className=" border border-gray-200 rounded-lg p-0.5 text-sm shadow-right-bottom-logo2">
                     <img src={desi} alt="" className="inline w-5 h-5 mx-1" />
                     Desiger
@@ -146,7 +146,7 @@ const Box2 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center mt-2">
+              <div className="flex justify-center mt-3">
                 <div className="transform -skew-y-1 px-2">
                   <p className=" border border-gray-200 rounded-lg p-0.5 text-sm shadow-right-bottom-logo2 ">
                     <img src={pose} alt="" className="inline w-5 h-5 mx-1" />
@@ -161,7 +161,7 @@ const Box2 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center mt-2">
+              <div className="flex justify-center mt-3">
                 <div className="transform px-2">
                   <p className=" border border-gray-200 rounded-lg p-0.5 text-sm shadow-right-bottom-logo2">
                     <img src={commu} alt="" className="inline w-5 h-5 mx-1" />
@@ -176,7 +176,7 @@ const Box2 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center mt-2">
+              <div className="flex justify-center mt-3">
                 <div className="transform px-2">
                   <p className=" border border-gray-200 rounded-lg p-0.5 text-sm shadow-right-bottom-logo2">
                     <img src={claw} alt="" className="inline w-5 h-5 mx-1" />
@@ -185,7 +185,7 @@ const Box2 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center mt-2">
+              <div className="flex justify-center mt-3">
                 <div className="transform skew-y-2 px-2">
                   <p className=" border border-gray-200 rounded-lg p-0.5 text-sm shadow-right-bottom-logo2">
                     <img src={artist} alt="" className="inline w-5 h-5 mx-1" />
@@ -200,7 +200,7 @@ const Box2 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center mt-2">
+              <div className="flex justify-center mt-3">
                 <div className="transform skew-y-1 px-2">
                   <p className=" border border-gray-200 rounded-lg p-0.5 text-sm shadow-right-bottom-logo2 ">
                     <img src={writer} alt="" className="inline w-5 h-5 mx-1" />
@@ -209,7 +209,7 @@ const Box2 = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center mt-2">
+              <div className="flex justify-center mt-3">
                 <div className="transform -skew-y-1 px-2">
                   <p className=" border border-gray-200 rounded-lg p-0.5 text-sm shadow-right-bottom-logo2 ">
                     <img src={hair} alt="" className="inline w-5 h-5 mx-1" />
